@@ -36,5 +36,5 @@ pystdlib:
 pydll:
 	cp dist/DLLs/*.pyd pkg/
 	cp dist/DLLs/sqlite3.dll pkg/
-	cp dist/msvcr90.dll pkg/
+	cp msvcr90.dll pkg/
 	cp dist/python${PYVER}.dll pkg/
